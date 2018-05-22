@@ -18,7 +18,11 @@ b. A query that will prepare a report for weekly earnings by owner, by car type 
 c. The following database update transactions was written using PHP :
 
 -The first transaction is to add information about a new CUSTOMER.
+
 -The second transaction is to add all the information about a new CAR.
+
 -The third transaction is to add all the information about a new RENTAL reservation (this must find a free car of the appropriate type for the rental period).
+
 -The fourth transaction is to handle the return of a rented car. This transaction should print the total customer payment due for the rental, and enter it in the database.
+
 -The fifth transaction is to enter or update the rental rates (daily and weekly) for a type of car.
